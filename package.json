@@ -1,6 +1,19 @@
 {
   "name": "@commland/external-websites",
+  "version": "1.0.0",
+  "description": "React App that handles communication between dock and core to render external websites on commland",
+  "author": "Joris Tirado <joris@2600hz.com> (https://github.com/azefiel), Daniel Hernandez <fhernandez@2600hz.com> (https://github.com/shark764)",
   "private": true,
+  "engines": {
+    "node": ">=14"
+  },
+  "keywords": [
+    "react",
+    "electron",
+    "javascript",
+    "website",
+    "external"
+  ],
   "scripts": {
     "start": "webpack serve",
     "start:standalone": "webpack serve --env standalone",
@@ -83,5 +96,11 @@
     "react-i18next": "11.14.3",
     "react-router-dom": "6.0.2",
     "zustand": "^3.7.2"
-  }
+  },
+  "repository": "https://github.com/shark764/commland-external-websites",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/shark764/commland-external-websites/issues"
+  },
+  "homepage": "https://github.com/shark764/commland-external-websites#readme"
 }
