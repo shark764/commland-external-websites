@@ -1,0 +1,8 @@
+{
+  "extends": ["ts-react-important-stuff", "plugin:prettier/recommended"],
+  "parser": "babel-eslint",
+  "rules": {
+    "semi": ["error", "always"],
+    "jsx-quotes": ["warn", "prefer-single"]
+  }
+}
