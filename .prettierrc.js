@@ -1,8 +1,6 @@
+const { prettierJSXConfig } = require('@2600hz/commio-native-utilities');
+
 module.exports = {
-  semi: true,
-  trailingComma: 'none',
-  singleQuote: true,
-  tabWidth: 2,
-  jsxSingleQuote: true,
-  printWidth: 100
+  ...prettierJSXConfig,
+  endOfLine: 'auto',
 };

@@ -1,8 +1,33 @@
+# .prettierignore
+
 .gitignore
 .prettierignore
 yarn.lock
 yarn-error.log
 package-lock.json
-dist
-coverage
 pnpm-lock.yaml
+
+node_modules/**
+.env
+public
+static
+dist
+storybook-static/**
+build
+
+.swp
+.DS_Store
+yarn-error.log
+
+build
+coverage
+
+rollup.config.js
+
+# templates
+templates/**
+
+# storybook/**
+
+*.stories.tsx
+*.test.tsx
