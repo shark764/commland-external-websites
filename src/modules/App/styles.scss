@@ -1,0 +1,14 @@
+@import '~@2600hz/sds-core/sds-tools';
+
+.w_ExternalWebsites_container {
+  --bar_height: 56px;
+
+  width: 100%;
+  height: calc(100vh - var(--bar_height) * 2);
+  position: fixed;
+  // position: relative;
+  top: var(--bar_height);
+  left: 0;
+  overflow-y: auto;
+  background: var(--sds_theme_background_high);
+}
