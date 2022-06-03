@@ -1,6 +1,7 @@
 export interface ExternalWebsiteItem {
   id: string;
   label: string;
-  url: string;
+  srcUrl: string;
+  lastUrlVisited?: string;
   hidden?: boolean;
 }

@@ -1,0 +1,32 @@
+@import '~@2600hz/sds-core/sds-tools';
+
+.w_ExternalWebsites {
+  &_layout {
+    @include sds-flex(flex-start, flex-start, row);
+    height: 100%;
+  }
+
+  &_site {
+    height: calc(100vh - 112px);
+    width: 100%;
+    display: flex;
+    box-sizing: border-box;
+
+    &_loading {
+      width: 0px;
+      height: 0px;
+      flex: 0 1;
+    }
+
+    &_hidden {
+      width: 0px;
+      height: 0px;
+      flex: 0 1;
+    }
+  }
+
+  &_loading_indicator {
+    @include sds-flex(center, center);
+    height: 100%;
+  }
+}

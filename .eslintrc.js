@@ -1,3 +1,4 @@
+const path = require('path');
 const { eslintWebConfig } = require('@2600hz/commio-native-utilities');
 
 const config = eslintWebConfig(__dirname);
@@ -32,5 +33,18 @@ config.rules = {
     { namedComponents: 'arrow-function' },
   ],
 };
+// config.settings = {
+//   ...config.settings,
+//   'import/resolver': {
+//     ...config.settings['import/resolver'],
+//     node: {
+//       extensions: ['.js', '.jsx', '.ts', '.tsx'],
+//       paths: [path.resolve(__dirname, 'src')],
+//     },
+//     webpack: {
+//       config: 'webpack.config.js',
+//     },
+//   },
+// };
 
 module.exports = config;
